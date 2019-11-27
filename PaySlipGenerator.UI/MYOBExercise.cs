@@ -1,5 +1,6 @@
 ﻿using PaySlipGenerator.Core.Interfaces;
 using PaySlipGenerator.Core.Model;
+using PaySlipGenerator.Infrastructure.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.IO;

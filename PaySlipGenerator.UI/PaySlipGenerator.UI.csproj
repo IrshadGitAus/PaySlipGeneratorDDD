@@ -74,6 +74,10 @@
       <Project>{445dddb8-6191-4182-b63b-c00903623da6}</Project>
       <Name>PaySlipGenerator.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PaySlipGenerator.Infrastructure\PaySlipGenerator.Infrastructure.csproj">
+      <Project>{5038f30d-d0a5-4353-ac2c-efd2baed22d9}</Project>
+      <Name>PaySlipGenerator.Infrastructure</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="MYOBExercise.resx">

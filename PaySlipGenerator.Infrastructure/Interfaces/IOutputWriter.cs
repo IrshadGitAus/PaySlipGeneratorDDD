@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PaySlipGenerator.Core.Interfaces
+namespace PaySlipGenerator.Infrastructure.Interfaces
 {
     public interface IOutputWriter
     {

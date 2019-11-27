@@ -1,5 +1,6 @@
 ﻿using PaySlipGenerator.Core.Interfaces;
 using PaySlipGenerator.Core.Model;
+using PaySlipGenerator.Infrastructure.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -9,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PaySlipGenerator.Core.Services
+namespace PaySlipGenerator.Infrastructure.Services
 {
     public class OutputWriter : IOutputWriter
     {
